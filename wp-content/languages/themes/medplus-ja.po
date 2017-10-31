@@ -1,0 +1,392 @@
+# Translation of Themes - Medplus in Japanese
+# This file is distributed under the same license as the Themes - Medplus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-14 07:55:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Medplus\n"
+
+#. Theme Name of the plugin/theme
+msgid "Medplus"
+msgstr "Medplus"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "全幅"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "メタ"
+
+#: sidebar.php:18
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: sidebar.php:11
+msgid "Category"
+msgstr "カテゴリー"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "検索..."
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありません。他のキーワードでもう一度検索してみてください。"
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: inc/template-tags.php:127
+msgid "<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">投稿日: %1$s</span> <span class=\"byline\">著者: %2$s</span>"
+
+#: inc/template-tags.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: inc/template-tags.php:23
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/customizer.php:315
+msgid "Add linkedin link here"
+msgstr "linkedin リンクをここに追加"
+
+#: inc/customizer.php:306
+msgid "Add google plus link here"
+msgstr "google+ リンクをここに追加"
+
+#: inc/customizer.php:297
+msgid "Add twitter link here"
+msgstr "twitter リンクをここに追加"
+
+#: inc/customizer.php:288
+msgid "Add facebook link here"
+msgstr "facebook リンクをここに追加"
+
+#: inc/customizer.php:279
+msgid "More social icon available in PRO Version"
+msgstr "PRO バージョンでより多くのソーシャルアイコンが利用可能です"
+
+#: inc/customizer.php:278
+msgid "Social Settings"
+msgstr "ソーシャル設定"
+
+#: inc/customizer.php:257
+msgid "Select page for box fourth:"
+msgstr "ボックス4のページを選択: "
+
+#: inc/customizer.php:245
+msgid "Select page for box third:"
+msgstr "ボックス3のページを選択: "
+
+#: inc/customizer.php:233
+msgid "Select page for box second:"
+msgstr "ボックス2のページを選択: "
+
+#: inc/customizer.php:221
+msgid "Select page for box first:"
+msgstr "ボックス1のページを選択: "
+
+#: inc/customizer.php:209
+msgid "Select page for welcome page:"
+msgstr "ウェルカムページのページを選択: "
+
+#: inc/customizer.php:197
+msgid "Select Pages from the dropdown for homepage welcome and services section"
+msgstr "ホームページのウェルカムとサービスのセクションのドロップダウンからページを選択"
+
+#: inc/customizer.php:196
+msgid "Homepage Welcome and Services Section"
+msgstr "ホームページ・ウェルカムとサービスセクション"
+
+#: inc/customizer.php:176
+msgid "Select page for Appointment page:"
+msgstr "予約ページのページを選択: "
+
+#: inc/customizer.php:164
+msgid "Select Page from the dropdown for first section"
+msgstr "最初のセクションのドロップダウンからページを選択"
+
+#: inc/customizer.php:163
+msgid "Get an Appointment Section"
+msgstr "予約セクションを取得する"
+
+#: inc/customizer.php:143
+msgid "Select page for slide three:"
+msgstr "3枚目のスライド用ページを選択:"
+
+#: inc/customizer.php:131
+msgid "Select page for slide two:"
+msgstr "2枚目のスライド用ページを選択:"
+
+#: inc/customizer.php:119
+msgid "Select page for slide one:"
+msgstr "1枚目のスライド用ページを選択:"
+
+#: inc/customizer.php:107
+msgid "Recommended image size ( 1300x570 )"
+msgstr "推奨画像サイズ ( 1300x570 )"
+
+#: inc/customizer.php:105
+msgid "Slider Settings"
+msgstr "スライダー設定"
+
+#: inc/customizer.php:99 inc/customizer.php:156 inc/customizer.php:189
+#: inc/customizer.php:270
+msgid "Uncheck To Enable This Section"
+msgstr "チェックを外してセクションを有効化"
+
+#: inc/customizer.php:85
+msgid "Add contact address for header"
+msgstr "ヘッダーに連絡先アドレスを追加"
+
+#: inc/customizer.php:72
+msgid "Add contact phone number for header"
+msgstr "ヘッダーに連絡先電話番号を追加"
+
+#: inc/customizer.php:61
+msgid "add header phone number and address"
+msgstr "ヘッダーに連絡先電話番号とアドレスを追加"
+
+#: inc/customizer.php:52
+msgid "select body font color"
+msgstr "Body フォント色を選択"
+
+#: inc/customizer.php:51
+msgid "Body Font Color"
+msgstr "Body フォント色"
+
+#: inc/customizer.php:38
+msgid "More color options in PRO Version"
+msgstr "プロバージョンの更なるカラーオプション"
+
+#: inc/customizer.php:37
+msgid "Color Scheme"
+msgstr "配色 "
+
+#: inc/about-themes.php:79
+msgid "Many Other Plugins  Compatible"
+msgstr "より多くのプラグインに対応"
+
+#: inc/about-themes.php:78
+msgid "Translation Ready"
+msgstr "翻訳対応"
+
+#: inc/about-themes.php:77
+msgid "User Friendly"
+msgstr "ユーザーフレンドリー"
+
+#: inc/about-themes.php:76
+msgid "Contact Form 7 Plugin Compatible"
+msgstr "Contact Form 7 プラグイン対応"
+
+#: inc/about-themes.php:68
+msgid "Theme Documentation"
+msgstr "テーマドキュメンテーション"
+
+#: inc/about-themes.php:67
+msgid "Purchase Pro"
+msgstr "プロを購入"
+
+#: inc/about-themes.php:66
+msgid "Live Demo"
+msgstr "ライブデモ"
+
+#: inc/about-themes.php:59
+msgid "Fully compatible with WooCommerce plugin. Just install the plugin and turn your site into a full featured online shop and start selling products."
+msgstr "WooCommerce プラグインに完全対応。プラグインをインストールしてサイトを完璧なオンラインショップにし、商品を販売し始めましょう。"
+
+#: inc/about-themes.php:58 inc/about-themes.php:75
+msgid "E-commerce"
+msgstr "E コマース"
+
+#: inc/about-themes.php:53 inc/about-themes.php:74
+msgid "Cross Browser Compatible"
+msgstr "クロスブラウザ互換"
+
+#: inc/about-themes.php:49
+msgid "The themes layout will automatically adjust and fit on any screen resolution and looks great on any device. Fully optimized for iPhone and iPad."
+msgstr "テーマのレイアウトはどんな画面解像度でも自動的に調整されてフィットし、どんなデバイスでも見栄えよくなります。 iPhone と iPad に完全に対応しています。"
+
+#: inc/about-themes.php:48 inc/about-themes.php:73
+msgid "Responsive Ready"
+msgstr "レスポンシブ対応"
+
+#: inc/about-themes.php:44
+msgid "The built-in customizer panel quickly change aspects of the design and display changes live before saving them."
+msgstr "ビルトインのカスタマイザーパネルでデザインの見た目をすばやく変更し、保存する前に変更を動的に表示します。"
+
+#: inc/about-themes.php:43 inc/about-themes.php:72
+msgid "Theme Customizer"
+msgstr "テーマカスタマイザー"
+
+#: inc/about-themes.php:39
+msgid "Theme Features"
+msgstr "テーマの機能"
+
+#: inc/about-themes.php:11 inc/about-themes.php:36
+msgid "About Theme Info"
+msgstr "テーマについての情報"
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "次へ <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前へ"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: header.php:78
+msgid "Menu"
+msgstr "メニュー"
+
+#. Translators: If there are any character that are not supported by Roboto,
+#. trsnalate this to off, do not translate into your own language.
+#: functions.php:122
+msgctxt "roboto:on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:102
+msgid "Footer Widget 4"
+msgstr "フッターウィジェット4"
+
+#: functions.php:92
+msgid "Footer Widget 3"
+msgstr "フッターウィジェット3"
+
+#: functions.php:82
+msgid "Footer Widget 2"
+msgstr "フッターウィジェット2"
+
+#: functions.php:73 functions.php:83 functions.php:93 functions.php:103
+msgid "Appears on footer"
+msgstr "フッターに表示"
+
+#: functions.php:72
+msgid "Footer Widget 1"
+msgstr "フッターウィジェット1"
+
+#: functions.php:63
+msgid "Appears on header of site"
+msgstr "サイトのヘッダーに表示"
+
+#: functions.php:62 inc/customizer.php:60
+msgid "Header Info"
+msgstr "ヘッダー情報"
+
+#: functions.php:53
+msgid "Appears on blog page sidebar"
+msgstr "ブログページのサイドバーに表示"
+
+#: functions.php:52
+msgid "Blog Sidebar"
+msgstr "ブログサイドバー"
+
+#: functions.php:35
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: functions.php:34
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:37
+msgid "Proudly Powered by %s"
+msgstr "Proudly Powered by %s"
+
+#: footer.php:37
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: footer.php:34
+msgid "All Rights Reserved"
+msgstr "All Rights Reserved"
+
+#: footer.php:34
+msgid "&copy; 2016"
+msgstr "&copy; 2016"
+
+#: content.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:25 header.php:168
+msgid "Read More &raquo;"
+msgstr "もっと読む &raquo;"
+
+#: content-page.php:23 content-single.php:44 image.php:33 image.php:65
+#: inc/template-tags.php:23
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:18 content-single.php:33 content.php:32 image.php:59
+msgid "Pages:"
+msgstr "ページ:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; に%1$s件のコメントがあります"
+
+#. translators: %s: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; に1件のコメントがあります"
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location."
+msgstr "この場所には何も見つかりませんでした。"
+
+#: 404.php:14
+msgid "Oops! page Not Found"
+msgstr "ページが見つかりません"
+
+#. Author URI of the plugin/theme
+msgid "https://gracethemes.com/"
+msgstr "https://gracethemes.com/"
+
+#. Author of the plugin/theme
+msgid "Grace Themes"
+msgstr "Grace Themes"
+
+#. Theme URI of the plugin/theme
+msgid "https://gracethemes.com/themes/medplus-free-wordpress-theme/"
+msgstr "https://gracethemes.com/themes/medplus-free-wordpress-theme/"

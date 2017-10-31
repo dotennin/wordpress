@@ -1,0 +1,392 @@
+# Translation of Themes - Dandy in Japanese
+# This file is distributed under the same license as the Themes - Dandy package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-26 06:05:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Dandy\n"
+
+#. Theme Name of the plugin/theme
+msgid "Dandy"
+msgstr "Dandy"
+
+#: inc/pro-button/class-customize.php:78
+msgid "More Info"
+msgstr "詳細情報"
+
+#: inc/pro-button/class-customize.php:77
+msgid "Dandy Pro Theme"
+msgstr "Dandy Pro テーマ"
+
+#: inc/customizer.php:55
+msgid "Special Hover Color"
+msgstr "スペシャルホバー色"
+
+#: inc/customizer.php:49
+msgid "Special Color"
+msgstr "スペシャル色"
+
+#: inc/template-tags.php:90
+msgid "Edit"
+msgstr "編集"
+
+#: template-parts/content.php:69
+msgid "Read More"
+msgstr "もっと読む"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:53
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:22 template-parts/content.php:58
+msgid "Pages:"
+msgstr "ページ："
+
+#: template-parts/content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: template-parts/content-none.php:30
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#. translators: %1$s: create new post link
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか？<a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "見つかりませんでした。"
+
+#. translators: %s: search query
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: index.php:48
+msgid "Next"
+msgstr "次"
+
+#: index.php:47
+msgid "Previous"
+msgstr "前"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:33
+msgid "Edit %s"
+msgstr "編集 %s"
+
+#: inc/template-tags.php:86
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: comments.php:32 inc/template-tags.php:86
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:86
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69 inc/template-tags.php:77
+msgid ", "
+msgstr "・"
+
+#: inc/template-tags.php:29
+msgid "Next Post link"
+msgstr "次の記事リンク"
+
+#: inc/template-tags.php:29
+msgid "Next Post"
+msgstr "次の記事"
+
+#: inc/template-tags.php:28
+msgid "Previous post link"
+msgstr "前の記事リンク"
+
+#: inc/template-tags.php:28
+msgid "Previous Post"
+msgstr "前の記事"
+
+#: inc/template-tags.php:25
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/customizer.php:292
+msgid "VK URL"
+msgstr "VK URL"
+
+#: inc/customizer.php:287
+msgid "Tumblr URL"
+msgstr "Tumblr URL"
+
+#: inc/customizer.php:282
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: inc/customizer.php:277
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: inc/customizer.php:272
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: inc/customizer.php:267
+msgid "Linkedin URL"
+msgstr "Linkedin URL"
+
+#: inc/customizer.php:262
+msgid "Google Plus URL"
+msgstr "Google+ URL"
+
+#: inc/customizer.php:257
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: inc/customizer.php:252
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/customizer.php:237
+msgid "Show Social Buttons on Footer"
+msgstr "フッターにソーシャルボタンを表示"
+
+#: inc/customizer.php:219
+msgid "Show Social Buttons on Header"
+msgstr "ヘッダーにソーシャルボタンを表示"
+
+#: inc/customizer.php:203
+msgid "Social Network"
+msgstr "ソーシャルネットワーク"
+
+#: inc/customizer.php:192
+msgid "Show Footer Text"
+msgstr "フッターテキストを表示"
+
+#: inc/customizer.php:155
+msgid "Show Flash News"
+msgstr "フラッシュニュースを表示"
+
+#: inc/customizer.php:119
+msgid "Show Breadcrumb"
+msgstr "パンくずリストを表示"
+
+#: inc/customizer.php:101
+msgid "Show Top Header"
+msgstr "トップヘッダーを表示"
+
+#: inc/customizer.php:85
+msgid "Dandy Theme Options"
+msgstr "Dandy テーマ設定"
+
+#: header.php:117
+msgid "Select a page..."
+msgstr "ページを選択..."
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: header.php:37
+msgid "Flash News"
+msgstr "フラッシュニュース"
+
+#: functions.php:359 index.php:49
+msgid "Page"
+msgstr "ページ"
+
+#: functions.php:225
+msgid "Error 404"
+msgstr "Error 404"
+
+#: functions.php:224
+msgid "Author %s"
+msgstr "投稿者 %s"
+
+#: functions.php:223
+msgid "Tag %s"
+msgstr "タグ %s"
+
+#: functions.php:222
+msgid "Results for %s"
+msgstr "%s の結果"
+
+#: functions.php:221
+msgid "Category %s"
+msgstr "カテゴリー %s"
+
+#: functions.php:220
+msgid "Home"
+msgstr "トップページ"
+
+#: functions.php:134
+msgid "Footer 3"
+msgstr "フッター 3"
+
+#: functions.php:126
+msgid "Footer 2"
+msgstr "フッター 2"
+
+#: functions.php:118
+msgid "Footer 1"
+msgstr "フッター 1"
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:49
+msgid "Primary"
+msgstr "メイン"
+
+#: footer.php:89 header.php:91
+msgid "VK"
+msgstr "VK"
+
+#: footer.php:86 header.php:88
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:83 header.php:85
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: footer.php:80 header.php:82
+msgid "YouTube"
+msgstr "Youtube"
+
+#: footer.php:77 header.php:79
+msgid "Instagram"
+msgstr "Instagram"
+
+#: footer.php:74 header.php:76
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: footer.php:71 header.php:73
+msgid "Google Plus"
+msgstr "Google+"
+
+#: footer.php:68 header.php:70
+msgid "Twitter"
+msgstr "Twitter"
+
+#: footer.php:65 header.php:67
+msgid "Facebook"
+msgstr "Facebook"
+
+#. translators: 1: theme name, 2: theme developer
+#: footer.php:58
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:12
+msgid "Proudly powered by WordPress"
+msgstr "Proudly powered by WordPress"
+
+#: comments.php:106
+msgid "Comment *"
+msgstr "コメント *"
+
+#: comments.php:105
+msgid "Post Comment"
+msgstr "コメントを投稿"
+
+#: comments.php:104
+msgid "Cancel reply"
+msgstr "返信をキャンセル"
+
+#. translators: %s: name of person to reply
+#: comments.php:103
+msgid "Leave a Reply to %s"
+msgstr "%s に返信する"
+
+#: comments.php:101
+msgid "Leave a Reply"
+msgstr "コメントを残す"
+
+#: comments.php:100
+msgid "Your email address will not be published."
+msgstr "あなたのメールアドレスは公開されません。"
+
+#. translators: 1: profile user link, 2: username, 3: logout link
+#: comments.php:99
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "<a href=\"%1$s\">%2$s</a>としてログインしています。<a href=\"%3$s\" title=\"Log out of this account\">ログアウトしますか?</a>"
+
+#. translators: %s: wordpress login url
+#: comments.php:97
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: comments.php:92
+msgid " Required fields are marked "
+msgstr "必須項目には印がついています"
+
+#: comments.php:90
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:90
+msgid "Website *"
+msgstr "ウェブサイト *"
+
+#: comments.php:89
+msgid "Email *"
+msgstr "メール *"
+
+#: comments.php:88
+msgid "Name *"
+msgstr "名前 *"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:46 comments.php:67
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:45 comments.php:66
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:42 comments.php:63
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#. translators: %s: number of comments
+#: comments.php:35
+msgctxt "comments title"
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d件のコメント"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "このページは見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "http://www.gecodigital.com"
+msgstr "http://www.gecodigital.com"
+
+#. Author of the plugin/theme
+msgid "Daniele Crusi - Gecodigital.com"
+msgstr "Daniele Crusi - Gecodigital.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://gecodigital.com/downloads/dandy-theme/"
+msgstr "https://gecodigital.com/downloads/dandy-theme/"

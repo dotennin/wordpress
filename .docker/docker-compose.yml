@@ -1,0 +1,47 @@
+version: '2'
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/etc/nginx/vhost.d"
+      - "/usr/share/nginx/html"
+      - "/var/run/docker.sock:/tmp/docker.sock:ro"
+      - "/etc/nginx/certs"
+
+  letsencrypt-nginx-proxy-companion:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    volumes_from:
+      - "nginx-proxy"
+  wordpress:
+    image: nochi0105/wordpress
+    container_name: ${SERVER_NAME}.wordpress
+    environment:
+      WORDPRESS_DB_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      VIRTUAL_HOST: dotennin.ml,www.dotennin.ml,blog.nochi0105.tk
+      LETSENCRYPT_HOST: dotennin.ml,www.dotennin.ml,blog.nochi0105.tk
+      LETSENCRYPT_EMAIL: wenhua4438@gmail.com
+    volumes:
+      - ../wp-content:/var/www/html/wp-content
+      - /etc/localtime:/etc/localtime:ro
+
+  mysql:
+    image: nochi0105/word-press-mysql
+    container_name: ${SERVER_NAME}.mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      SERVER_NAME: ${SERVER_NAME}
+    expose: 
+      - '3306'
+    volumes:
+      - /run/mysqld
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+      - ../mysql:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro

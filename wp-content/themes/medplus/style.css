@@ -1,0 +1,244 @@
+/*
+Theme Name: Medplus
+Theme URI: https://gracethemes.com/themes/medplus-free-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: Medplus is a Free Medical WordPress theme. it is perfect Theme for hospital, clinic, pharmacy, dental, orthopedics, welness spa etc. also user for corporate, industrial,  and  commercial websites. it is compatible with WooCommerce, Nextgen gallery ,Contact Form 7, and many WordPress popular plugins. Demo Link: https://gracethemes.com/demo/medplus/
+
+Version: 1.3.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: medplus
+Tags:blog,two-columns,right-sidebar,custom-logo,full-width-template,footer-widgets,custom-colors,custom-header,featured-image-header,editor-style,custom-background,custom-menu,sticky-post,threaded-comments,theme-options, translation-ready
+
+Medplus WordPress Theme has been created by Grace Themes(gracethemes.com), 2016.
+Medplus WordPress Theme is released under the terms of GNU GPL
+*/
+body{ margin:0; padding:0;line-height:20px; font-size:13px; color:#5c5c5c; font-family:Arial, Helvetica, sans-serif;  -ms-word-wrap:break-word; word-wrap:break-word; }
+*{ margin:0; padding:0; outline:none;}
+img{ border:none; margin:0; padding:0; height:auto}
+.wp-caption, .wp-caption-text, .sticky, .gallery-caption, .aligncenter{ margin:0; padding:0;}
+p{ margin:0; padding:0;}
+a{ text-decoration:none; color:#E14165;}
+a:hover{ color:#333;}
+ol,ul{ margin:0; padding:0;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ color:#515151; font-family:'Roboto', sans-serif; margin:0 0 20px; padding:0; line-height:1.1; font-weight:400; }
+h1{ font-size:36px;}
+h2{ font-size:30px;}
+h3{ font-size:24px;}
+h4{ font-size:20px;}
+h5{ font-size:18px;}
+h6{ font-size:14px;}
+.clear{ clear:both;}
+.alignnone{ width:100% !important;}
+img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #cccccc;}
+img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #cccccc;}
+blockquote{ background:url(images/icon_quote.png) no-repeat 20px 22px; padding:15px 15px 15px 60px !important; font-style:italic; color:#888; font-size:14px; line-height:1.5;}
+.left{ float:left;}
+.right{ float:right;}
+.space50{ clear:both; height:50px;}
+.space100{ clear:both; height:100px;}
+.pagination{display:table; clear:both;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#646262; color:#fff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#34c6f6;}
+
+#comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
+ol.comment-list li{ list-style:none; margin-bottom:5px;}
+
+.logo{ width:30%; float:left; color:#333; }
+.logo h1{font-weight:400; margin:0; line-height:36px; color:#E14165;}
+.logo a{ color:#E14165;}
+.logo span{ color:#333;}
+.container{ width:1100px; margin:0 auto; position:relative;}
+
+.header_right{ float:right; width:70%;}
+/* = header top sign in  css
+-------------------------------------------------------------- */
+.header{width:100%; background-color:#fff; padding:18px 0; box-shadow:0 -1px 3px rgba(0, 0, 0, 0.1) inset }
+.header-top{ background-color:#f7f7f7; color:#A5A5A5; border-bottom:1px solid #eaeaea; line-height:36px; font-size:14px; font-family: 'Roboto', sans-serif; }
+.header-top .left span{ float:left; line-height:40px;  border-right:1px solid #E4E8ED; padding-right:8px;}
+.header-top .social-icons a{ border-right:1px solid #E4E8ED; margin-right:0;}
+.header-top .fa{ margin-right:5px;}
+.header-top .right{ text-align:right; line-height:40px;}
+.right span.phno{ padding-right:10px; margin-right:5px;}
+
+.headerinfo { font:400 14px/24px 'Roboto'; color:#666666; padding:10px 20px 10px 0; }
+.headerinfo .fa{  font-size:14px; margin:0 10px; }
+
+
+/*header menu css*/
+.toggle{display: block;}
+.toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #E14165; padding:10px 10px; margin-top:5px; font-size:16px; text-align:left;}
+.toggle a:hover{color:#ffffff !important;}
+.sitenav{ padding:0; position:relative; z-index:9999; float:right; }
+.sitenav ul {margin:0; padding:0; font-family:'Roboto', sans-serif; font-weight:500;}
+.sitenav ul li{display:inline-block; text-transform:uppercase; position:relative;}
+.sitenav ul li:last-child{border-right:none;}
+.sitenav ul li a{padding:20px; display:block; color:#515151;}
+.sitenav ul li ul li{display:block; position:relative; float:none; top:-1px; border-bottom:1px #e7e6e6 solid;}
+.sitenav ul li ul li a{display:block; padding-top:10px; padding-bottom:10px; position:relative; top:1px; text-align:left;}
+
+.sitenav ul li ul{display:none; z-index:9999999; position:relative;}
+.sitenav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; background-color:#fff; }
+.sitenav ul li:hover ul li ul{display:none; position:relative;}
+.sitenav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:1px;}
+
+
+section#home_slider{ padding:0; }
+h2.section-title {color:#454545; font:300 36px/40px 'Roboto',san-serif; text-align: center; }
+.last_column{clear:right; margin-right:0 !important; }
+
+/* = Get An Appointment css
+-------------------------------------------------------------- */
+#pagearea{ background-color:#E14165; border-bottom:2px solid #cd2b4f; border-top:2px solid #cd2b4f; padding:30px 0; color:#fff;}
+.appointmentbx{ text-align:center;}
+.appointmentbx h2{ font-size:30px; color:#fff; margin-bottom:20px;}
+.appointmentbx p{ font-size:14px; font-family: 'Roboto', sans-serif; margin-bottom:20px; }
+.appointmentbtn{font:normal 12px/22px 'Roboto'; border:1px solid #fff; padding:10px 20px; text-transform:uppercase; color:#fff; display:inline-block;}
+.appointmentbtn:hover{ border-color:#515151; color:#515151; }
+
+.ReadMore{ color:#78797C ;display: inline-block; padding:6px 15px; box-shadow:0 0 3px rgba(0, 0, 0, 0.2) inset}
+.ReadMore:hover{  box-shadow:0 0 3px rgba(225, 65, 101, 0.9) inset; color:#E14165 ;}
+
+/* = Our Services css
+-------------------------------------------------------------- */
+#ourservices{ padding:50px 0;}
+.leftwrap{ width:30%; float:left;}
+.leftwrap h2{ font-weight:300; font-family: 'Roboto', sans-serif; font-size:30px; margin:0 0 15px; line-height:35px;}
+.leftwrap h2 span{ color:#E14165; font-weight:900;}
+.leftwrap p{ margin-bottom:25px;}
+
+.rightwrap{ width:70%; float:right;}
+.rightwrap .cols2{ width:45%; float:left; margin:0 0 30px 30px; }
+.rightwrap .cols2 .servicesthumb{ width:20%; float:left;}
+.rightwrap .cols2 .srvcontent{ width:75%; float:right}
+.rightwrap .cols2 h3{ font-size:18px; font-weight:600; margin-bottom:10px;}
+.rightwrap .cols2 h3 a{ color:#515151;}
+.rightwrap .cols2 a{ display:block;}
+.lastcols{ margin-right:0 !important;}
+
+/* = social icons css
+-------------------------------------------------------------- */
+.social-icons a{ border-right:1px solid #E4E8ED; color:#777; width:45px; height:45px; line-height:45px; text-align:center;  vertical-align:middle; display:inline-block; transition:0.6s; -moz-transition:0.6s; -webkit-transition:0.6s; -o-transition:0.6s;  margin:0; padding:0; }
+.social-icons br{ display:none;}
+.social-icons a:hover{ color:#333;}
+
+.footer-icons a{ color:#595959; width:30px; height:30px; line-height:30px; border:1px solid #595959; text-align:center;  vertical-align:middle; display:inline-block; transition:0.6s; -moz-transition:0.6s; -webkit-transition:0.6s; -o-transition:0.6s;  margin:0 2px; padding:0; border-radius:50%; }
+.footer-icons br{ display:none;}
+.footer-icons a:hover{ color:#E14165; border-color:#E14165;}
+
+/* = Page lay out css
+-------------------------------------------------------------- */
+.site-main{ width:740px; margin:0; padding:0; float:left;}
+#sitefull{ width:100%; float:none;}
+#sitefull p{ margin-bottom:15px;}
+.page_content{ padding:25px 0;}
+.page_content p{ margin-bottom:20px; line-height:20px;}
+
+.blogposts{ margin-bottom:30px; padding:20px; box-shadow:0 0 3px rgba(0, 0, 0, 0.2) inset }
+.blogposts h4{ margin-bottom:0px;}
+.blogposts h4 a{ color:#484f5e;}
+.blogposts h4 a:hover{ color:#E14165;}
+.blogposts p{ margin-bottom:10px;}
+.blog-meta{ font-style:italic; margin-bottom:8px;}
+.post-date, .post-comment, .post-categories{ display:inline; color:#333;} 
+.single_title{ margin-bottom:5px;}
+.BlogPosts{ width:31.2%; float:left; margin:0 3% 0 0;}
+.BlogPosts img{ width:100%;}
+.BlogPosts h2{ margin:10px 0; font-size:22px; }
+.post-thumb{ width:40%; float:left; margin:5px 25px 5px 0;}
+.post-thumb img{ width:100%; }
+
+/* = sidebar
+-------------------------------------------------------------- */
+#sidebar{ width:330px; float:right;}
+aside.widget{margin-bottom:30px; padding:20px; box-shadow:0 0 3px rgba(0, 0, 0, 0.2) inset}
+aside.widget ul{ list-style:disc; }
+h3.widget-title{ padding:0 15px 15px; margin:0 -18px; color:#515151; border-bottom:1px solid #ddd; }
+#sidebar ul li{ list-style:inside none disc; border-bottom:1px solid #f0efef; padding:10px 0;}
+#sidebar ul li a{ padding:0 0 0 10px; color:#3b3b3b;  display:inline-block; }
+#sidebar ul li a:hover{ color:#34c6f6;}
+#sidebar ul li:last-child{ border:none;}
+
+#sidebar .search-form{ margin-bottom:20px;}
+#sidebar .search-form input.search-field{ background-color:#f0efef; width:80%; padding: 12px 15px 12px 15px; box-sizing:border-box; border:0;}
+#sidebar .search-form input.search-submit{ background:url(images/search-icon.png) no-repeat center center #5095ce; padding: 12px 0 12px 0; font-size:0; width:20%; height:41px; float:right;  border:0; cursor:pointer;}
+
+
+
+/* = Footer css
+-------------------------------------------------------------- */
+#footer-wrapper{ color:#595959;}
+.footer{ background-color:#242323; position:relative; color:#595959;}
+.footerleft { float:left;}
+.footerright { float:right;}
+
+
+.cols-4{width:24%; float:left; margin:0 3% 2% 0; padding:30px 0 10px; }
+.widget-column-2 { width:19%;}
+.widget-column-4 { margin-right:0px !important;}
+.cols-4 h5{ font-weight:400; font-size:18px; color:#fff; margin-bottom:25px; border-bottom:1px solid #303030; padding-bottom:15px; }
+.cols-4 ul{ margin:0; padding:0; list-style:none;}
+.cols-4 ul li {}
+.cols-4 ul li a { background:url(images/footer-arrow.png) no-repeat left 15px; color:#595959; font:normal 12px/24px Arial, Helvetica, sans-serif; padding:8px 0 8px 20px; display:block;  border-bottom:#303030 1px solid; }
+.cols-4 ul li a:hover, .cols-4 ul li.current_page_item a { color:#E14165; }
+
+.cols-4 a.readmore span{ color:#fff;}
+.cols-4 p{ margin-bottom:0;}
+.cols-4 h5{color:#aeaeae;}
+.widget-column-2 a{font:400 20px/24px 'Roboto',san-serif;}
+
+.copyright-wrapper {  background-color:#1A191A;  color:#fff; position:relative; padding:15px 0;}
+.copyright-wrapper a{ color:#fff;}
+.copyright-txt { float:left;}
+.copyright-txt span{color:#E14165;}
+.design-by { float:right;}
+
+/* Buttons */
+.button{ background-color:#ff6565; border-bottom:4px solid #e44545; color:#fff; padding:8px 20px; display:inline-block; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -o-border-radius:2px; -ms-border-radius:2px; }
+.button:hover{background-color:#34c6f6; border-color:#1898c2; color:#fff;}
+
+/* woocommerce CSS
+================================================*/
+a.added_to_cart{background:#e1472f; padding:5px; display:inline-block; color:#fff; line-height:1;}
+a.added_to_cart:hover{background:#000000;}
+a.button.added:before{content:'' !important;}
+#bbpress-forums ul li{padding:0;}
+#subscription-toggle a.subscription-toggle{padding:5px 10px; display:inline-block; color:#e1472f; margin-top:4px;}
+textarea.wp-editor-area{border:1px #ccc solid;}
+.woocommerce input[type=text], .woocommerce textarea{border:1px #ccc solid; padding:4px;}
+form.woocommerce-ordering select{ padding:5px; color:#777777;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Roboto',san-serif; color:#ff8a00;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:inherit !important;}
+h1.product_title, p.price{ margin-bottom:10px;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{ font-family:'Roboto',san-serif; color:#ff6d84;}
+.woocommerce ul.products li, #payment ul.payment_methods li{ list-style:none !important;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:inherit !important;}
+.woocommerce table.shop_table th, .woocommerce table.shop_table td{ border-bottom:0px !important}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {clip: rect(1px, 1px, 1px, 1px);position: absolute !important;	height: 1px;width: 1px;	overflow: hidden;}
+.screen-reader-text:focus {	background-color: #f1f1f1;	border-radius: 3px;	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);	clip: auto !important;	color: #21759b;	display: block;
+	font-size: 14px;font-size: 0.875rem;font-weight: bold;	height: auto;left: 5px;	line-height: normal;padding: 15px 23px 14px;text-decoration: none;	top: 5px;	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* ============= Contact Page =========== */
+.wpcf7{ margin:30px 0 0; padding:0;}
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"]{ width:40%; border:1px solid #cccccc; box-shadow:inset 1px 1px 2px #ccc; height:35px; padding:0 15px; color:#797979; margin-bottom:0;}
+.wpcf7 textarea{width:60%; border:1px solid #cccccc; box-shadow:inset 1px 1px 2px #ccc; height:150px; color:#797979; margin-bottom:25px; font:12px arial; padding:10px; padding-right:0;}
+.wpcf7 input[type="submit"]{background-color:#E14165; width:auto; border:none; cursor:pointer; font:18px 'Roboto',san-serif; color:#ffffff; padding:10px 40px; border-radius:3px;}	
+
+/* ============= Comment Form ============ */
+h1.screen-reader-text{font:22px 'Roboto',san-serif;}
+.site-nav-previous, .nav-previous{ float:left;}
+.site-nav-next, .nav-next{ float:right;}
+h3#reply-title{font:300 18px 'Roboto',san-serif;}
+#comments{ margin:30px 0 0; padding:0;}
+nav#nav-below{ margin-top:15px;}
+nav.pagination .nav-links a, nav.pagination .nav-links span{ background-color:#f0efef; padding:8px 10px;}
+.textwidget select{ width:100%;}
+table{ width:100%}

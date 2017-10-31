@@ -1,0 +1,451 @@
+/*--------------------------------------------------------------
+## Common
+--------------------------------------------------------------*/
+body { font-family:'Old Standard TT', sans-serif; }
+
+.bgwrap {
+	background-color: white;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px dashed #DADADA;
+	border-right: 1px dashed #DADADA;
+}
+ul, ol {
+	margin:0;
+	padding:0;
+}
+td, th {
+  padding: 3px 4px;
+  border: 1px dashed #dadada;
+  text-align: left;
+  
+}
+/*--------------------------------------------------------------
+## All elements in header
+--------------------------------------------------------------*/
+.site-header { 
+	background:#000; 
+	text-align:center;
+}
+.site-header a {
+	color:#fff;
+	text-decoration:none;
+}
+.site-header li { 
+	font-family:'Fauna One', sans-serif; 
+}
+.menu ul {
+max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: -webkit-inline-box; */
+  text-align: center;
+}
+.main-navigation li:first-child a {
+	padding-left:0px;
+}
+.main-navigation a {
+	padding: 10px;
+}
+.main-navigation li {
+	border-right: 1px dashed #323131;
+	float: none;
+  display: inline-block;
+}
+.main-navigation li:last-child {
+	border:none;
+}
+.main-navigation ul ul {
+	top:2.5em;
+	font-size:85%;
+}
+.main-navigation ul ul a {
+	padding: 10px 10px 10px 5px;
+	border-bottom: 1px dashed #323131;
+}
+
+.main-navigation ul ul li {
+	background:#000;
+	width:100%;
+	padding:0;
+}
+/*--------------------------------------------------------------
+## All elements in content
+--------------------------------------------------------------*/
+.entry-content ul, .entry-content ol {
+  margin: 0 0 1.5em 3em;
+}
+.hentry {
+	overflow:hidden;
+}
+h2.entry-title, h1.entry-title, h3.widget-title {
+	margin-top: 62px;
+	margin-bottom: 10px;
+	line-height: 1;
+	border-top: 1px solid #000;
+}
+h2.entry-title span, h1.entry-title span { 
+	background: rgb(0, 0, 0);
+	padding: 4px 10px;
+	position: relative;
+	top: -15px;
+	font-size: 26px;
+	color:white;
+	text-transform: uppercase;
+}
+.entry-meta {
+	margin-top: -20px;
+}
+.cat-links, .tags-links, .edit-link {
+	width:100%;
+	float:left;
+}
+h3.widget-title span {
+	background: rgb(0, 0, 0);
+	padding: 4px 10px;
+	position: relative;
+	top: -10px;
+	font-size: 16px;
+	color:white;
+	text-transform: uppercase;
+}
+h2.entry-title a, h1.entry-title a {
+	color:white;
+	text-decoration:none;
+}
+h2.site-description {
+	color:#DADADA;
+}
+h1.entry-title span {
+	top:-18px;
+}
+.footer-content h3.widget-title span, .site-branding h1.entry-title span { background:white;color:black; }
+.site-branding h1.entry-title a { color:black; }
+.footer-content h3.widget-title, .site-branding h1.entry-title { border-top:1px solid #fff; }
+.footer-content ul.product_list_widget li img { width:50px;  float: left;
+  margin-right: 12px; }
+.footer-content { overflow:hidden;}
+.footer-content ul { list-style:none; }
+span.vcard { top:0px!important; }
+/*--------------------------------------------------------------
+## All elements in sidebar
+--------------------------------------------------------------*/
+.widget_search { 
+	margin-top: 30px;
+}
+.widget-area {
+	border-left: 1px dashed #dadada;
+	padding-left: 12px!important;
+}
+.widget-area ul li {
+	list-style: none;
+	border-bottom: 1px dashed #dadada;
+	padding: 4px;
+}
+.widget-area a {
+	text-decoration:none;
+}
+/*--------------------------------------------------------------
+## All elements in footer
+--------------------------------------------------------------*/
+.site-footer {
+	background:#000;
+}
+.site-info {
+	line-height:40px;
+	margin-top:30px;
+}
+.site-footer p, .site-footer a {
+	color:#888;
+}
+.site-footer p:hover, .site-footer a:hover {
+	color:#FFF;
+}
+/*--------------------------------------------------------------
+## All WooCommerce Elements
+--------------------------------------------------------------*/
+.woocommerce .woocommerce-breadcrumb { margin:1em 0; }
+/*--------------------------------------------------------------
+## Responsivity
+--------------------------------------------------------------*/
+.container {
+	width:1170px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.menu-toggle {
+display:none!important;
+}
+.tinynav { display:none; }
+
+/*  Standard Layout: Following the width of the .container style */
+@media only screen and (min-width: 992px) and (max-width: 9999px) {
+	.content-area{width:70%;padding:0;float:left;display:inline;}
+	.widget-area{width:25%;padding:0;float:right;display:inline;}
+	.site-footer{width:100%;padding:0;}
+}
+/*  Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hfeed{}
+	.site-header{width:100%;padding:0 1%;}
+	.site-main{width:100%;padding:0;overflow:auto;}
+	.content-area{width:63%;padding:0;float:left;display:inline;}
+	.widget-area{width:35%;padding:0;float:right;display:inline;}
+	.site-footer{width:100%;padding:0;text-align:center;}
+	.tinynav { display:block;margin-left: auto;  margin-right: auto; margin-bottom:8px;}
+	.site-description { display:none; }
+	.col, .container { width:100%; }
+}
+/*  Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.hfeed{width:100%;padding:0 1%;}
+	.site-header{width:100%;padding:0;}
+	.site-main{width:100%;padding:0;}
+	.content-area{width:100%;padding:0;}
+	.widget-area{width:100%;padding:0;}
+	.site-footer{width:100%;padding:0;text-align:center;}
+	.tinynav { display:block;margin-left: auto;  margin-right: auto; margin-bottom:8px;}
+	.site-description { display:none; }
+	.col, .container { width:100%; }
+}
+/*  Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.hfeed{width:100%;padding:0 1%;}
+	.site-header{width:100%;padding:0;}
+	.site-main{width:100%;padding:0;}
+	.content-area{width:100%;padding:0;}
+	.widget-area{width:100%;padding:0;}
+	.site-footer{width:100%;padding:0;text-align:center;}
+	.tinynav { display:block;margin-left: auto;  margin-right: auto; margin-bottom:8px;}
+	.site-description { display:none; }
+	.col, .container { width:100%; }
+	
+}
+
+@media only screen and (max-width:767px) {
+/* START Make the cart table responsive */
+/* http://css-tricks.com/responsive-data-tables/ */
+
+/* Force table to not be like tables anymore */
+.woocommerce-page table.shop_table, 
+.woocommerce-page table.shop_table thead, 
+.woocommerce-page table.shop_table tbody, 
+.woocommerce-page table.shop_table th, 
+.woocommerce-page table.shop_table td, 
+.woocommerce-page table.shop_table tr { 
+	display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.woocommerce-page table.shop_table thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.woocommerce-page table.shop_table tr { 
+	/*border: 1px solid #d2d3d3; */
+}
+
+.woocommerce-page table.shop_table td { 
+	/* Behave  like a "row" */
+	border: 1px solid #d2d3d3; 
+	position: relative;
+	padding-left: 40% !important; 
+}
+
+.woocommerce-page table.shop_table {
+	border: none;
+}
+
+.woocommerce-page table.shop_table td.product-spacer {
+	border-color: #FFF;
+	height: 10px;
+}
+
+.woocommerce-page table.shop_table td:before { 
+	/* Now like a table header */
+	position: absolute;
+	/* Top/left values mimic padding */
+	top: 6px;
+	left: 6px;
+width: 35%;
+  padding-right: 10px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+/*
+Label the data
+*/
+.woocommerce-page table.shop_table td.product-remove:before {
+	content: "DELETE";
+}
+
+.woocommerce-page table.shop_table td.product-thumbnail:before {
+	content: "IMAGE";
+}
+
+.woocommerce-page table.shop_table td.product-name:before {
+	content: "PRODUCT";
+}
+
+.woocommerce-page table.shop_table td.product-price:before {
+	content: "PRICE";
+}
+
+.woocommerce-page table.shop_table td.product-quantity:before {
+	content: "QUANTITY";
+}
+
+.woocommerce-page table.shop_table td.product-subtotal:before {
+	content: "SUBTOTAL";
+}
+
+.woocommerce-page table.shop_table td.product-total:before {
+	content: "TOTAL";
+}
+
+.woocommerce .quantity, 
+.woocommerce #content .quantity, 
+.woocommerce-page .quantity, 
+.woocommerce-page #content .quantity {
+	margin: 0;
+}
+
+.woocommerce-page table.cart td.actions, 
+.woocommerce-page #content table.cart td.actions {
+	text-align: left;
+	border:0;
+	padding-left: 6px !important;
+}
+
+.woocommerce-page table.cart td.actions .button.alt, 
+.woocommerce-page #content table.cart td.actions .button.alt {
+	float: left;
+	margin-top: 10px;
+}
+
+.woocommerce-page table.cart td.actions div, 
+.woocommerce-page #content table.cart td.actions div,
+.woocommerce-page table.cart td.actions input, 
+.woocommerce-page #content table.cart td.actions input {
+	margin-bottom: 10px;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals th, 
+.woocommerce-page .cart-collaterals .cart_totals td {
+	border:0 !important;
+}
+
+.woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+.woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+	padding-left: 6px !important;
+}
+
+.woocommerce-page table.shop_table tr.cart-subtotal td,
+.woocommerce-page table.shop_table tr.shipping td,
+.woocommerce-page table.shop_table tr.total td,
+.woocommerce-page table.shop_table.order_details tfoot th,
+.woocommerce-page table.shop_table.order_details tfoot td {
+	padding-left: 6px !important;
+	border:0 !important;
+}
+
+.woocommerce-page table.shop_table tbody {
+	padding-top: 10px;
+}
+
+.woocommerce .col2-set .col-1, 
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2, 
+.woocommerce-page .col2-set .col-2,
+.woocommerce form .form-row-first, 
+.woocommerce form .form-row-last, 
+.woocommerce-page form .form-row-first, 
+.woocommerce-page form .form-row-last {
+	float: none;
+	width: 100%;
+}
+
+.woocommerce .order_details ul, 
+.woocommerce-page .order_details ul,
+.woocommerce .order_details, 
+.woocommerce-page .order_details {
+	padding:0;
+}
+
+.woocommerce .order_details li, 
+.woocommerce-page .order_details li {
+	clear: left;
+	margin-bottom: 10px;
+	border:0;
+}
+
+/* END Make the cart table responsive */
+}
+
+
+/* ==========================================================================
+   Column & Row Setup
+   ========================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 0 0 0 1.6%;
+}
+
+/* Remove the margin on the first column. Works on all browsers incl. IE7+ */
+.col:first-child { margin-left: 0; }
+
+.row {
+	clear: both;
+	margin: 0 auto;
+	*zoom: 1;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}
+
+.row:after { clear: both; }
+
+.carousella { width:1140px; }
+.carousella ul { position:relative; }
+
+/* ==========================================================================
+   Twelve Column Grid
+   ========================================================================== */
+
+.grid_12_of_12 { width: 100%; }
+.grid_11_of_12 { width: 91.53%; }
+.grid_10_of_12 { width: 83.06%; }
+.grid_9_of_12  { width: 74.6%; }
+.grid_8_of_12  { width: 66.13%; }
+.grid_7_of_12  { width: 57.66%; }
+.grid_6_of_12  { width: 49.2%; }
+.grid_5_of_12  { width: 40.73%; }
+.grid_4_of_12  { width: 32.26%; }
+.grid_3_of_12  { width: 23.8%; }
+.grid_2_of_12  { width: 15.33%; }
+.grid_1_of_12  { width: 6.866%; }
+
+.pure-full-width {
+	width:100%;
+}
+.pure-clear {
+	clear:both;
+	width:100%;
+}
+
